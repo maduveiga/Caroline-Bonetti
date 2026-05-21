@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carol Bonetti | Arquitetura Autoral e Sofisticada</title>
+  <meta name="description" content="Carol Bonetti cria ambientes que acolhem famílias e traduzem estilos de vida únicos. Mais de 20 anos de experiência em arquitetura autoral e sofisticada.">
+  <meta name="keywords" content="arquiteta, arquitetura autoral, design de interiores, Carol Bonetti, ambientes sofisticados">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="MIDIA/LOGO.png" type="image/png">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <img src="MIDIA/LOGO.png" alt="Carol Bonetti" class="loading-logo">
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#hero">
+      <img src="MIDIA/LOGO.png" alt="Carol Bonetti" class="header-logo">
+    </a>
+    <nav class="nav" id="desktopNav">
+      <a href="#essencia" class="nav-link">Essência</a>
+      <a href="#experiencias" class="nav-link">Experiências</a>
+      <a href="#diferenciais" class="nav-link">Diferenciais</a>
+      <a href="#curadoria" class="nav-link">Curadoria</a>
+      <a href="#feedbacks" class="nav-link">Reviews</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#essencia" class="mobile-nav-link">Essência</a>
+    <a href="#experiencias" class="mobile-nav-link">Experiências</a>
+    <a href="#diferenciais" class="mobile-nav-link">Diferenciais</a>
+    <a href="#curadoria" class="mobile-nav-link">Curadoria</a>
+    <a href="#feedbacks" class="mobile-nav-link">Reviews</a>
+    <a href="#contato" class="mobile-nav-link">Contato</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-video-wrap">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="MIDIA/HERO.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-tagline">Ambientes que acolhem famílias</span>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <a href="#contato" class="hero-btn" id="heroCta">Solicitar projeto</a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Essência Section -->
+  <section class="section essencia" id="essencia">
+    <div class="essencia-grid">
+      <div class="essencia-image-wrap reveal">
+        <div class="essencia-image-card">
+          <img src="MIDIA/PERFIL.jpg" alt="Carol Bonetti" class="parallax-img">
+        </div>
+        <div class="essencia-image-accent"></div>
+      </div>
+      <div class="essencia-content">
+        <span class="essencia-label reveal">Essência</span>
+        <h2 class="essencia-title reveal reveal-delay-1">Criar ambientes e sentir histórias que merecem ser vividas</h2>
+        <p class="essencia-text reveal reveal-delay-2">
+          Há mais de duas décadas, Carol Bonetti dedica seu olhar a compreender o modo como cada família vive, sente e se conecta com seus espaços. Cada projeto nasce de uma escuta atenta e se transforma em ambientes que acolhem, inspiram e traduzem a identidade de quem os habita.
+        </p>
+        <p class="essencia-text reveal reveal-delay-3">
+          Com mais de dois mil projetos desenvolvidos e reconhecida pelo Decorare 22, Carol construiu uma trajetória marcada pela sensibilidade, pelo cuidado com cada detalhe e pela busca constante de um resultado que vai além da estética. Seus ambientes contam histórias, despertam emoções e se tornam verdadeiros reflexos de um estilo de vida único.
+        </p>
+        <div class="essencia-stats reveal reveal-delay-4">
+          <div class="essencia-stat">
+            <div class="essencia-stat-number" data-count="20">0</div>
+            <div class="essencia-stat-label">Anos de experiência</div>
+          </div>
+          <div class="essencia-stat">
+            <div class="essencia-stat-number" data-count="2000">0</div>
+            <div class="essencia-stat-label">Projetos desenvolvidos</div>
+          </div>
+          <div class="essencia-stat">
+            <div class="essencia-stat-number special-text">Decorare 22</div>
+            <div class="essencia-stat-label">Reconhecimento</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiências Section -->
+  <section class="section experiencias" id="experiencias">
+    <div class="section-header">
+      <span class="section-label reveal">Portfólio</span>
+      <h2 class="section-title reveal reveal-delay-1">Experiências</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+    </div>
+    <div class="experiencias-grid">
+      <div class="exp-item reveal" data-project="0">
+        <img src="MIDIA/project_living.png" alt="Residência Serena" loading="lazy">
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Residência Serena</h3>
+          <span class="exp-item-subtitle">Sala de Estar</span>
+        </div>
+      </div>
+      <div class="exp-item reveal reveal-delay-1" data-project="1">
+        <img src="MIDIA/SUITE.jpg" alt="Suíte Aurora" loading="lazy">
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Suíte Aurora</h3>
+          <span class="exp-item-subtitle">Dormitório</span>
+        </div>
+      </div>
+      <div class="exp-item reveal reveal-delay-2" data-project="2">
+        <img src="MIDIA/project_kitchen.png" alt="Cozinha Essencial" loading="lazy">
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Cozinha Essencial</h3>
+          <span class="exp-item-subtitle">Gastronomia</span>
+        </div>
+      </div>
+      <div class="exp-item video-card reveal" data-project="3">
+        <video src="MIDIA/PROJETO.mp4" muted loop playsinline preload="metadata"></video>
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Residência Origami</h3>
+          <span class="exp-item-subtitle">Tour Completo</span>
+        </div>
+      </div>
+      <div class="exp-item reveal reveal-delay-1" data-project="4">
+        <video src="MIDIA/BANHEIRO.mp4" autoplay loop muted playsinline class="exp-video"></video>
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Espaço Contemplação</h3>
+          <span class="exp-item-subtitle">Banheiro</span>
+        </div>
+      </div>
+      <div class="exp-item reveal reveal-delay-2" data-project="5">
+        <img src="MIDIA/project_exterior.png" alt="Fachada Solstício" loading="lazy">
+        <div class="exp-item-info">
+          <h3 class="exp-item-title">Fachada Solstício</h3>
+          <span class="exp-item-subtitle">Exterior</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Detail Overlay -->
+  <div class="project-detail-overlay" id="projectDetail">
+    <button class="project-detail-close" id="projectDetailClose" aria-label="Fechar">&times;</button>
+    <img class="project-detail-hero" id="projectDetailHero" src="" alt="">
+    <div class="project-detail-content">
+      <h2 class="project-detail-title" id="projectDetailTitle"></h2>
+      <div class="project-detail-meta" id="projectDetailMeta"></div>
+      <div class="project-detail-text" id="projectDetailText"></div>
+      <div class="project-detail-gallery" id="projectDetailGallery"></div>
+    </div>
+  </div>
+
+  <!-- Diferenciais Section -->
+  <section class="section diferenciais" id="diferenciais">
+    <div class="section-header">
+      <span class="section-label reveal">O que nos define</span>
+      <h2 class="section-title reveal reveal-delay-1">Diferenciais</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+    </div>
+    <div class="diferenciais-grid">
+      <div class="diferencial-item reveal">
+        <div class="diferencial-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3 class="diferencial-title">Experiência personalizada</h3>
+        <p class="diferencial-text">Cada projeto começa por uma escuta cuidadosa, onde compreendemos a essência da sua família e o modo como você deseja viver e sentir cada ambiente.</p>
+      </div>
+      <div class="diferencial-item reveal reveal-delay-2">
+        <div class="diferencial-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+        </div>
+        <h3 class="diferencial-title">Atenção aos detalhes</h3>
+        <p class="diferencial-text">Acreditamos que a verdadeira sofisticação mora nos detalhes. Cada textura, cada iluminação e cada proporção são pensados para criar uma harmonia que se percebe ao viver o espaço.</p>
+      </div>
+      <div class="diferencial-item reveal reveal-delay-4">
+        <div class="diferencial-icon">
+          <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <h3 class="diferencial-title">Resultado exclusivo</h3>
+        <p class="diferencial-text">O resultado final vai além de um projeto bonito. Entregamos ambientes que acolhem, que contam a sua história e que se tornam cenários para os momentos mais significativos da vida.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curadoria Section -->
+  <section class="section curadoria" id="curadoria">
+    <div class="section-header">
+      <span class="section-label reveal">Inspirações</span>
+      <h2 class="section-title reveal reveal-delay-1">Curadoria</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+    </div>
+    <div class="curadoria-grid">
+      <div class="curadoria-card reveal" data-article="0">
+        <div class="curadoria-card-image">
+          <img src="MIDIA/project_office.png" alt="Ambientes que contam histórias" loading="lazy">
+        </div>
+        <div class="curadoria-card-content">
+          <div class="curadoria-card-tag">Estilo de vida</div>
+          <h3 class="curadoria-card-title">Ambientes que contam histórias e despertam sensações</h3>
+          <p class="curadoria-card-desc">Como a arquitetura se torna um reflexo da identidade e transforma o cotidiano em uma experiência sensorial.</p>
+        </div>
+      </div>
+      <div class="curadoria-card reveal reveal-delay-2" data-article="1">
+        <div class="curadoria-card-image">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80" alt="A luz natural como matéria-prima" loading="lazy">
+        </div>
+        <div class="curadoria-card-content">
+          <div class="curadoria-card-tag">Sensações</div>
+          <h3 class="curadoria-card-title">A luz natural como matéria-prima da arquitetura</h3>
+          <p class="curadoria-card-desc">Como a iluminação natural transforma a percepção dos espaços e influencia o bem-estar de quem os habita.</p>
+        </div>
+      </div>
+      <div class="curadoria-card reveal reveal-delay-4" data-article="2">
+        <div class="curadoria-card-image">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Texturas que acolhem" loading="lazy">
+        </div>
+        <div class="curadoria-card-content">
+          <div class="curadoria-card-tag">Inspiração</div>
+          <h3 class="curadoria-card-title">Texturas que acolhem e definem a alma do ambiente</h3>
+          <p class="curadoria-card-desc">A escolha certa de materiais cria atmosferas que convidam a permanecer e que se revelam a cada toque.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curadoria Detail Overlay -->
+  <div class="curadoria-detail-overlay" id="curadoriaDetail">
+    <button class="project-detail-close" id="curadoriaDetailClose" aria-label="Fechar">&times;</button>
+    <img class="curadoria-detail-hero" id="curadoriaDetailHero" src="" alt="">
+    <div class="curadoria-detail-content">
+      <div class="curadoria-detail-tag" id="curadoriaDetailTag"></div>
+      <h2 class="curadoria-detail-title" id="curadoriaDetailTitle"></h2>
+      <div class="curadoria-detail-text" id="curadoriaDetailText"></div>
+    </div>
+  </div>
+
+  <!-- Reviews Section -->
+  <section class="section feedbacks" id="feedbacks">
+    <div class="section-header">
+      <span class="section-label reveal">Depoimentos</span>
+      <h2 class="section-title reveal reveal-delay-1">Reviews</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+    </div>
+
+    <div class="reviews-rating-bar reveal">
+      <div class="reviews-rating-stars">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <span class="reviews-rating-score">5.0</span>
+      <span class="reviews-rating-label">Avaliação Google</span>
+    </div>
+
+    <div class="reviews-masonry">
+      <div class="review-card review-card--wide reveal">
+        <div class="review-card__accent"></div>
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">A Carol entendeu exatamente o que a nossa família precisava. Cada detalhe do projeto respira a nossa história. Quando entramos em casa, sentimos que tudo foi pensado para nós. O resultado superou qualquer expectativa que tínhamos.</p>
+        <span class="review-card__author">Fernanda e Ricardo M.</span>
+      </div>
+      <div class="review-card reveal reveal-delay-1">
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">O processo foi tão acolhedor quanto o resultado. A Carol tem uma sensibilidade rara para traduzir sentimentos em espaços. Nossa casa se tornou nosso lugar favorito no mundo.</p>
+        <span class="review-card__author">Juliana P.</span>
+      </div>
+      <div class="review-card review-card--tall reveal reveal-delay-2">
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">Trabalhamos com outros profissionais antes, mas a experiência com a Carol foi incomparável. Ela nos ouviu de verdade e criou um lar que acolhe cada momento da nossa rotina com elegância e profundidade. Um resultado que vai muito além do estético.</p>
+        <span class="review-card__author">Marcos e Ana L.</span>
+      </div>
+      <div class="review-card reveal">
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">Cada canto da nossa residência reflete quem somos. A Carol tem o dom de perceber o que nem nós mesmos sabíamos que desejávamos. O projeto ficou genuíno.</p>
+        <span class="review-card__author">Patrícia S.</span>
+      </div>
+      <div class="review-card review-card--wide review-card--featured reveal reveal-delay-1">
+        <div class="review-card__accent"></div>
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">A nossa casa se transformou em um verdadeiro santuário. Cada ambiente convida a viver com mais presença e beleza. A sensibilidade da Carol para entender a alma de uma família é algo raro e precioso.</p>
+        <span class="review-card__author">Carolina e Bruno T.</span>
+      </div>
+      <div class="review-card reveal reveal-delay-2">
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">A experiência com a Carol foi leve, sofisticada e cheia de cuidado. O resultado é um espaço feito sob medida para a nossa vida. Recomendo com toda a convicção.</p>
+        <span class="review-card__author">Renata D.</span>
+      </div>
+      <div class="review-card reveal reveal-delay-3">
+        <div class="review-card__stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="review-card__text">Desde o primeiro encontro, sentimos que estávamos nas mãos certas. A Carol traduziu os nossos sonhos em um lar que nos surpreende a cada dia. Uma profissional incomparável.</p>
+        <span class="review-card__author">Isabela e Pedro C.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato Section -->
+  <section class="section contato" id="contato">
+    <div class="section-header">
+      <span class="section-label reveal">Vamos conversar</span>
+      <h2 class="section-title reveal reveal-delay-1">Contato</h2>
+      <div class="section-divider reveal reveal-delay-2"></div>
+    </div>
+    <div class="contato-grid">
+      <div class="contato-info reveal">
+        <h3 class="contato-info-title">O primeiro passo para transformar o seu modo de viver</h3>
+        <p class="contato-info-text">Estamos prontos para ouvir a sua história e criar juntos um ambiente que acolha a sua família com a sofisticação e o cuidado que você merece.</p>
+        <div class="contato-details">
+          <div class="contato-detail-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div class="contato-detail-text">
+              <span class="contato-detail-label">Endereço</span>
+              <span>R. Victor Meirelles, 960, Matriz<br>Videira, SC — 89560-272</span>
+            </div>
+          </div>
+          <div class="contato-detail-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div class="contato-detail-text">
+              <span class="contato-detail-label">E-mail</span>
+              <span>contato@carolbonetti.com.br</span>
+            </div>
+          </div>
+          <div class="contato-detail-item">
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div class="contato-detail-text">
+              <span class="contato-detail-label">Telefone</span>
+              <span>(49) 99911-3560</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/5549999113560" target="_blank" class="whatsapp-btn">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Iniciar conversa
+        </a>
+      </div>
+      <form class="contato-form reveal reveal-delay-2" id="contatoForm">
+        <div class="form-group">
+          <label for="formName">Nome</label>
+          <input type="text" id="formName" name="name" required autocomplete="name">
+        </div>
+        <div class="form-group">
+          <label for="formEmail">E-mail</label>
+          <input type="email" id="formEmail" name="email" required autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="formPhone">Telefone</label>
+          <input type="tel" id="formPhone" name="phone" autocomplete="tel">
+        </div>
+        <div class="form-group">
+          <label for="formMessage">Mensagem</label>
+          <textarea id="formMessage" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Enviar mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <img src="MIDIA/LOGO.png" alt="Carol Bonetti" class="footer-logo">
+        <p class="footer-desc">Arquitetura autoral e sofisticada que traduz o seu estilo de viver e acolhe o que há de mais valioso: a sua história.</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-nav-title">Navegação</h4>
+        <div class="footer-nav-links">
+          <a href="#essencia">Essência</a>
+          <a href="#experiencias">Experiências</a>
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#curadoria">Curadoria</a>
+          <a href="#feedbacks">Reviews</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-nav-title">Redes sociais</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram" class="footer-social-link">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#ig-grad)" opacity="0.15"/>
+              <rect x="2" y="2" width="28" height="28" rx="8" stroke="rgba(250,247,242,0.3)" stroke-width="1"/>
+              <rect x="10" y="10" width="12" height="12" rx="3.5" stroke="rgba(250,247,242,0.8)" stroke-width="1.3" fill="none"/>
+              <circle cx="16" cy="16" r="3.2" stroke="rgba(250,247,242,0.8)" stroke-width="1.3" fill="none"/>
+              <circle cx="20.2" cy="11.8" r="0.9" fill="rgba(250,247,242,0.8)"/>
+              <defs><linearGradient id="ig-grad" x1="2" y1="2" x2="30" y2="30"><stop offset="0%" stop-color="#F9CE34"/><stop offset="50%" stop-color="#EE2A7B"/><stop offset="100%" stop-color="#6228D7"/></linearGradient></defs>
+            </svg>
+          </a>
+          <a href="#" aria-label="Pinterest" class="footer-social-link">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="28" height="28" rx="8" fill="rgba(189,8,28,0.12)"/>
+              <rect x="2" y="2" width="28" height="28" rx="8" stroke="rgba(250,247,242,0.3)" stroke-width="1"/>
+              <path d="M16 6C10.477 6 6 10.477 6 16c0 4.08 2.44 7.59 5.97 9.15-.08-.76-.16-1.93.03-2.76.17-.75 1.13-4.79 1.13-4.79s-.29-.58-.29-1.43c0-1.34.78-2.34 1.74-2.34.82 0 1.22.62 1.22 1.36 0 .83-.53 2.07-.8 3.21-.23.96.48 1.74 1.43 1.74 1.71 0 3.03-1.81 3.03-4.42 0-2.31-1.66-3.92-4.03-3.92-2.75 0-4.36 2.06-4.36 4.19 0 .83.32 1.72.72 2.2a.29.29 0 0 1 .067.278l-.268 1.094c-.043.177-.14.214-.323.129-1.205-.561-1.959-2.323-1.959-3.738 0-3.045 2.212-5.844 6.38-5.844 3.349 0 5.953 2.387 5.953 5.576 0 3.327-2.098 6.001-5.01 6.001-.978 0-1.898-.509-2.212-1.108l-.601 2.296c-.218.839-.806 1.89-1.201 2.53.904.28 1.864.43 2.859.43C21.523 26 26 21.523 26 16S21.523 6 16 6z" fill="rgba(250,247,242,0.75)"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn" class="footer-social-link">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="28" height="28" rx="6" fill="rgba(10,102,194,0.15)"/>
+              <rect x="2" y="2" width="28" height="28" rx="6" stroke="rgba(250,247,242,0.3)" stroke-width="1"/>
+              <rect x="8" y="13" width="3" height="9" rx="1" fill="rgba(250,247,242,0.8)"/>
+              <circle cx="9.5" cy="9.5" r="1.8" fill="rgba(250,247,242,0.8)"/>
+              <path d="M14 13h3v1.5s.8-1.5 2.8-1.5c2.4 0 3.2 1.6 3.2 4v5h-3v-4.5c0-1-.4-1.8-1.4-1.8-1.1 0-1.6.9-1.6 1.9V22h-3v-9z" fill="rgba(250,247,242,0.8)"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Carol Bonetti Arquitetura. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
